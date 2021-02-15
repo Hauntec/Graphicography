@@ -1,0 +1,90 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  background-color: #63498d;
+}
+
+h1 {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
+  display: block;
+  background-color: #e05887;
+  text-transform: uppercase;
+  color: #FFF;
+  padding: 10px 0px ;
+  border-radius: 5px;
+}
+
+.wrapper {
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+
+.selectioncontainer {
+  flex: 20%;
+  height: 300px;
+  border-radius: 5px;
+  text-align: center;
+  color: rgb(232, 247, 212);
+  background-color: #5b297a;
+  padding: 70px 20px 0px 20px;
+}
+
+.colour span {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 2px;
+}
+
+.red { background-color: #f59395; }
+.yellow { background-color: #ffd43b; }
+.green { background-color: #85ccd4; }
+.blue { background-color: #9eb2f4; }
+
+.icon img {
+  max-height: 20px;
+  width: auto;
+}
+
+.buttoncontainer {
+  flex: 1;
+  margin: auto;
+  margin-left: 20px;
+  height: 300px;
+  border-radius: 5px;
+  text-align: center;
+  color: rgb(232, 247, 212);
+  background-color: #EEE;
+  padding: 70px 20px 0px 20px;
+}
+
+.buttondesign {
+}
+.activecolour {
+  display: block;
+  margin: 0 auto;
+}
+.activeicon {
+  position: relative;
+  top: -70px;
+}
+
+h2 {
+  color: #f4bb4f;
+}
+
+footer {
+  display: block;
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  background-color: #f4bb4f;
+  color: #FFF;
+  padding: 30px 0px;
+  border-radius: 5px;
+}
